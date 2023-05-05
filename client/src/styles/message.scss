@@ -1,0 +1,41 @@
+.messageRow{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 0;
+
+  &--myself{
+    flex-direction: row-reverse;
+    .messageBody{
+      background-color: #1976d2;
+    }
+    .messageName{
+      color: #5DE2B3;
+    }
+    
+    .messageText{
+      color: #fff;
+    }
+  }
+}
+
+.messageBody{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  border-radius: 20px; 
+  padding: 5px 15px; 
+  max-width: 40%; 
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-color: #008C5B;
+  
+}
+
+.messageName{
+  color:#FFB74F;
+}
+
+.messageText{
+  color: #fff;
+}
